@@ -1,0 +1,98 @@
+html {
+  background-color: #0a0c10;
+  background-image: radial-gradient(#0a0c10, #040507);
+}
+
+/**
+  * Homepage component styles.
+  */
+.Homepage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-family: Oswald, Verdana, sans-serif;
+  color: #fcfeec;
+  background-color: #0a0c10;
+  background-image: radial-gradient(#0a0c10, #040507);
+}
+
+/**
+  * Title component.
+  */
+.Title {
+  font-size: 3rem;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  margin: 4rem;
+}
+
+.Subtitle {
+  font-size: 1.5rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin: 1.5rem;
+  margin-bottom: 5rem;
+}
+
+/**
+  * Row flex component.
+  */
+.Row {
+  display: flex;
+}
+
+/**
+  * The cute dot component.
+  */
+.Dot {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  margin: 0.25rem;
+  background-color: #fcfeec;
+}
+
+.Dot--primary {
+  background-color: #284b63;
+}
+
+.Dot--accent {
+  background-color: #daa42f;
+}
+
+/**
+  * A navigation, look at that! Why here?
+  */
+.Nav {
+  margin: 4rem;
+}
+.Nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.Nav li {
+  margin: 0.4rem;
+}
+
+/**
+  * The link.
+  */
+.Link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.4s;
+}
+.Link:hover.Link--primary,
+.Link:focus.Link--primary {
+  color: #284b63;
+}
+.Link:hover.Link--accent,
+.Link:focus.Link--accent {
+  color: #daa42f;
+}
